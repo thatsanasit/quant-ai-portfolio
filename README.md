@@ -1,63 +1,47 @@
-# Quantitative Development & Applied AI Portfolio
+# Thatsanasit Charoenthammarak
+### Intelligent Information Technology Student | Quantitative Development · Applied AI · Data Analysis
 
-**Tup | Intelligent Information Technology Student**  
-School of Informatics, Walailak University
+**School of Informatics, Walailak University**
 
-Welcome to my student portfolio focused on quantitative software development, machine learning, financial data analysis, and reproducible software experiments.
+I develop and evaluate software projects involving Python, MQL5, data analysis and AI-assisted engineering. My interests include quantitative research, reproducible experiments, financial NLP and practical machine learning.
 
-> **Privacy-first portfolio:** This repository is currently private. The examples here are educational and do not contain my trading system, proprietary signals, actual trading data, credentials, or private research results.
+## Selected projects
 
-## Featured projects
-
-| Project | Focus | What is shared here |
+| Project | Engineering focus | Explore |
 |---|---|---|
-| [Algorithmic Trading Systems Research](projects/algorithmic-trading-research.md) | MQL5, Python, systematic testing, reproducibility | High-level project overview only |
-| [Gold News Analyzer](projects/gold-news-analyzer.md) | Financial NLP, news analysis, volatility research | Research concept; work in progress |
-| [Time-Series Evaluation](projects/time-series-evaluation.md) | Time-aware evaluation, diagnostics, data leakage prevention | Educational methodology and synthetic-data code |
+| **Gold News Analyzer** *(research in progress)* | Financial NLP, sentiment analysis, market-data feature research and time-aware ML evaluation | [Project overview](projects/gold-news-analyzer.md) |
+| **Algorithmic Trading Systems Research** | MQL5/Python development, debugging, experiment organization and reproducible backtesting | [Project overview](projects/algorithmic-trading-research.md) |
+| **Synthetic Walk-Forward Evaluation** | Python, chronological evaluation, baseline comparisons, MAE/RMSE and unit tests | [Source code](examples/walk_forward_synthetic.py) · [Documentation](projects/synthetic-walk-forward-demo.md) |
+| **Synthetic Volatility Demo** | Deterministic artificial OHLC data, true range and simple ATR | [Source code](demo/synthetic_volatility.py) |
 
-## New: privacy-safe walk-forward evaluation
+## Technical skills
 
-[Read the synthetic walk-forward demo](projects/synthetic-walk-forward-demo.md) · [View Python source](examples/walk_forward_synthetic.py)
+- **Programming:** Python · MQL5 · SQL; coursework in Java and JavaScript/TypeScript
+- **Development tools:** VS Code · Git/GitHub · MetaEditor · MetaTrader 5 Strategy Tester · Google Colab · Jupyter
+- **Data & quantitative research:** Time-series analysis · structured backtesting · experiment documentation · unit testing
+- **AI and ML:** ChatGPT · Claude · scikit-learn; exploring financial NLP/FinBERT, PyTorch and gradient-boosting methods
 
-This standalone Python exercise demonstrates chronological train/test separation, a simple AR(1) linear model, baseline comparisons, MAE/RMSE evaluation and reproducibility tests. It uses only artificially generated numbers—**no proprietary EA logic, trade data, live market information or order placement**.
+## AI-assisted development
+
+I use ChatGPT and Claude for **software development, debugging, code review, experiment planning and technical documentation**, while **validating outcomes through testing and systematic evaluation**. AI tools support the process; they do not replace understanding, verification or independent judgment.
+
+## Run the educational Python examples
+
+Requires Python 3.10+; standard library only.
 
 ```bash
 python examples/walk_forward_synthetic.py
-python -m unittest discover -s tests -v
-```
-
-## Educational Python demonstration
-
-[demo/synthetic_volatility.py](demo/synthetic_volatility.py) generates **artificial OHLC-like data** and computes true range and a simple rolling ATR. It has no market connection, buy/sell logic, broker API, account data, or live trading functionality.
-
-With Python 3.10+:
-
-```bash
 python demo/synthetic_volatility.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
 
-## Engineering toolkit & responsible AI use
+These examples use **synthetic data only**, and are for demonstrating software engineering and evaluation methods, not investment advice or performance claims.
 
-- **Programming:** Python, MQL5, SQL; additional coursework in Java and JavaScript/TypeScript
-- **Development:** VS Code, Git/GitHub, MetaEditor, MetaTrader 5 Strategy Tester, Google Colab and Jupyter notebooks
-- **Research:** reproducible backtesting, data analysis, unit tests and chronological model evaluation
-- **AI-assisted development:** ChatGPT and Claude used to explore approaches, debug, review code and organize experiments. AI-generated suggestions are independently checked rather than treated as verified results
-- **ML under study:** scikit-learn, financial NLP/FinBERT, PyTorch and boosting methods
+## Other information
 
-This skills overview does **not** share any proprietary Expert Advisor source, market-entry rules, tuned settings, account data, or private trading results.
+- [ภาษาไทย / Thai version](README_TH.md)
+- [Security review checklist (Thai)](SECURITY_CHECKLIST_TH.md)
+- [GitHub profile introduction template](PROFILE_README_TEMPLATE.md)
 
-## Technologies and interests
-
-Python · MQL5 · SQL · Machine Learning · NLP · Time-Series Analysis · Backtesting Research
-
-These describe technologies I have used or studied; not all projects are production-ready. No profitability or predictive-accuracy claims are made.
-
-## Languages and safety
-
-- [ภาษาไทย / Thai README](README_TH.md)
-- [Disclosure & security checklist (Thai)](SECURITY_CHECKLIST_TH.md)
-- Private EA code, trading rules, account information, logs, and datasets are **not** published here.
-
-This portfolio is for education and software engineering demonstration only; not trading or investment advice.
+*Portfolio scope: project descriptions and educational examples; original trading implementations and private datasets are not included.*
