@@ -1,0 +1,42 @@
+# Quantitative Development & Applied AI Portfolio
+
+**Tup | Intelligent Information Technology Student**  
+School of Informatics, Walailak University
+
+Welcome to my student portfolio focused on quantitative software development, machine learning, financial data analysis, and reproducible software experiments.
+
+> **Privacy-first portfolio:** This repository is currently private. The examples here are educational and do not contain my trading system, proprietary signals, actual trading data, credentials, or private research results.
+
+## Featured projects
+
+| Project | Focus | What is shared here |
+|---|---|---|
+| [Algorithmic Trading Systems Research](projects/algorithmic-trading-research.md) | MQL5, Python, systematic testing, reproducibility | High-level project overview only |
+| [Gold News Analyzer](projects/gold-news-analyzer.md) | Financial NLP, news analysis, volatility research | Research concept; work in progress |
+| [Time-Series Evaluation](projects/time-series-evaluation.md) | Time-aware evaluation, diagnostics, data leakage prevention | Educational methodology and synthetic-data code |
+
+## Educational Python demonstration
+
+[demo/synthetic_volatility.py](demo/synthetic_volatility.py) generates **artificial OHLC-like data** and computes true range and a simple rolling ATR. It has no market connection, buy/sell logic, broker API, account data, or live trading functionality.
+
+With Python 3.10+:
+
+```bash
+python demo/synthetic_volatility.py
+python -m unittest discover -s tests -v
+python tools/review_before_publish.py
+```
+
+## Technologies and interests
+
+Python · MQL5 · SQL · Machine Learning · NLP · Time-Series Analysis · Backtesting Research
+
+These describe technologies I have used or studied; not all projects are production-ready. No profitability or predictive-accuracy claims are made.
+
+## Languages and safety
+
+- [ภาษาไทย / Thai README](README_TH.md)
+- [Disclosure & security checklist (Thai)](SECURITY_CHECKLIST_TH.md)
+- Private EA code, trading rules, account information, logs, and datasets are **not** published here.
+
+This portfolio is for education and software engineering demonstration only; not trading or investment advice.
