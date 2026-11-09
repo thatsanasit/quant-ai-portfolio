@@ -18,6 +18,9 @@ ALLOWED = {
     "demo/synthetic_volatility.py",
     "tests/test_synthetic_volatility.py",
     "tools/review_before_publish.py",
+    "examples/walk_forward_synthetic.py",
+    "tests/test_walk_forward_synthetic.py",
+    "projects/synthetic-walk-forward-demo.md",
 }
 PATTERNS = {
     "private key": r"-----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----",
