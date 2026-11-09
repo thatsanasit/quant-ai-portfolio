@@ -15,6 +15,17 @@ Welcome to my student portfolio focused on quantitative software development, ma
 | [Gold News Analyzer](projects/gold-news-analyzer.md) | Financial NLP, news analysis, volatility research | Research concept; work in progress |
 | [Time-Series Evaluation](projects/time-series-evaluation.md) | Time-aware evaluation, diagnostics, data leakage prevention | Educational methodology and synthetic-data code |
 
+## New: privacy-safe walk-forward evaluation
+
+[Read the synthetic walk-forward demo](projects/synthetic-walk-forward-demo.md) · [View Python source](examples/walk_forward_synthetic.py)
+
+This standalone Python exercise demonstrates chronological train/test separation, a simple AR(1) linear model, baseline comparisons, MAE/RMSE evaluation and reproducibility tests. It uses only artificially generated numbers—**no proprietary EA logic, trade data, live market information or order placement**.
+
+```bash
+python examples/walk_forward_synthetic.py
+python -m unittest discover -s tests -v
+```
+
 ## Educational Python demonstration
 
 [demo/synthetic_volatility.py](demo/synthetic_volatility.py) generates **artificial OHLC-like data** and computes true range and a simple rolling ATR. It has no market connection, buy/sell logic, broker API, account data, or live trading functionality.
