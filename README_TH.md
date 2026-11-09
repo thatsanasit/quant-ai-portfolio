@@ -25,3 +25,14 @@ python tools/review_before_publish.py
 ไม่รวมโค้ด EA จริง, สูตรตัดสินใจซื้อขาย, พารามิเตอร์เฉพาะ, รหัสผ่าน, Token, ข้อมูลบัญชี, ไฟล์ Tester/Log, ข้อมูลราคาและข่าวที่มีข้อจำกัด หรือผลวิจัยที่ยังไม่ต้องการเผยแพร่
 
 **คำอธิบายโปรเจกต์ไม่ได้หมายถึงการรับรองว่ากลยุทธ์มีกำไรหรือโมเดลทำนายถูกต้องแล้ว** อ่าน [เช็กลิสต์ความปลอดภัย](SECURITY_CHECKLIST_TH.md) ก่อนเผยแพร่ทุกครั้ง
+
+## โค้ดตัวอย่างใหม่: การประเมินข้อมูลตามลำดับเวลา
+
+[รายละเอียดโค้ด](projects/synthetic-walk-forward-demo.md) · [โค้ด Python](examples/walk_forward_synthetic.py)
+
+ตัวอย่างนี้สร้างตัวเลขสังเคราะห์ขึ้นเอง จากนั้นทดสอบโมเดลพื้นฐานด้วย Walk-Forward Validation วัด MAE/RMSE และมี Unit Tests ตรวจการใช้ข้อมูลอนาคต ไม่ได้ใช้ข้อมูลตลาดจริงหรือ Logic ซื้อขายใด ๆ
+
+```bash
+python examples/walk_forward_synthetic.py
+python -m unittest discover -s tests -v
+```
