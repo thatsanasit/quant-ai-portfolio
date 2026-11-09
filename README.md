@@ -38,6 +38,16 @@ python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
 
+## Engineering toolkit & responsible AI use
+
+- **Programming:** Python, MQL5, SQL; additional coursework in Java and JavaScript/TypeScript
+- **Development:** VS Code, Git/GitHub, MetaEditor, MetaTrader 5 Strategy Tester, Google Colab and Jupyter notebooks
+- **Research:** reproducible backtesting, data analysis, unit tests and chronological model evaluation
+- **AI-assisted development:** ChatGPT and Claude used to explore approaches, debug, review code and organize experiments. AI-generated suggestions are independently checked rather than treated as verified results
+- **ML under study:** scikit-learn, financial NLP/FinBERT, PyTorch and boosting methods
+
+This skills overview does **not** share any proprietary Expert Advisor source, market-entry rules, tuned settings, account data, or private trading results.
+
 ## Technologies and interests
 
 Python · MQL5 · SQL · Machine Learning · NLP · Time-Series Analysis · Backtesting Research
