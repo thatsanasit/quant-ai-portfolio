@@ -1,15 +1,17 @@
 # Hi, I'm Tup 👋
 
-I'm an **Intelligent Information Technology student** at Walailak University.
+I'm **Thatsanasit Charoenthammarak**, an **Intelligent Information Technology student** at **Walailak University**.
 
-My interests include **quantitative software development, Python, MQL5, applied AI and reproducible financial-data research**.
+I enjoy building and evaluating software with **Python, MQL5 and applied AI**, with a particular interest in **quantitative development, time-series analysis and reproducible experiments**.
 
-## Selected work
+## What I work on
 
-- **Algorithmic Trading Systems Research:** software engineering, diagnostics and reproducible evaluation (details remain private)
-- **Gold News Analyzer:** financial NLP research in progress
-- **Time-Series Evaluation:** general validation principles and a synthetic Python demonstration
+- 📈 **Quantitative software research:** systematic testing, debugging and reproducibility
+- 🧠 **Gold News Analyzer:** research exploring financial NLP and ML (in progress)
+- 🧪 **Python evaluation projects:** synthetic-data examples, walk-forward validation, baselines and unit tests
+- 🛠️ **Tools:** Python, Git/GitHub, VS Code, MetaEditor, Google Colab and Jupyter
+- 🤖 **AI-assisted development:** ChatGPT and Claude for coding, code review, experiment planning and technical documentation, with independent validation
 
-**Portfolio:** [Quant & AI Portfolio](https://github.com/thatsanasit/quant-ai-portfolio) (currently private; requires access).
+**Selected projects:** [Quant & AI Portfolio](https://github.com/thatsanasit/quant-ai-portfolio)
 
-> Proprietary trading implementations, market datasets, execution rules and account information are deliberately not shared.
+*The portfolio repository is currently private. A recruiter cannot view it unless explicitly granted access or a separate public portfolio is created.*
