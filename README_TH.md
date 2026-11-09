@@ -1,38 +1,43 @@
-# Quantitative Development และ Applied AI — แฟ้มผลงาน
+# ทัศนสิทธิ์ เจริญธรรมรักษ์
+### นักศึกษาเทคโนโลยีสารสนเทศอัจฉริยะ | Quantitative Development · Applied AI · Data Analysis
 
-ผู้จัดทำ: นักศึกษาสาขา **เทคโนโลยีสารสนเทศอัจฉริยะ (Intelligent Information Technology)** สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์
+**สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์**
 
-Repository นี้ใช้รวบรวมผลงานเชิงเทคนิคสำหรับการสมัครฝึกงานสาย Quantitative Developer, AI และ Machine Learning โดยเริ่มจากสถานะ **Private**
+สนใจการพัฒนาซอฟต์แวร์เชิงปริมาณ การวิเคราะห์ข้อมูล AI/Machine Learning และการออกแบบการทดลองที่ตรวจสอบผลได้ โดยมีประสบการณ์ทำโปรเจกต์ด้วย Python และ MQL5
 
-## โปรเจกต์ที่แนะนำ
+## ผลงานที่น่าสนใจ
 
-1. [Algorithmic Trading Systems Research](projects/algorithmic-trading-research.md) — แนวคิดด้านการพัฒนาและทดสอบซอฟต์แวร์ระบบเทรดอัตโนมัติ (เผยแพร่เฉพาะภาพรวม)
-2. [Gold News Analyzer](projects/gold-news-analyzer.md) — ศึกษาข่าวเศรษฐกิจและการเคลื่อนไหวของราคาทองคำด้วย NLP และ ML (อยู่ระหว่างพัฒนา)
-3. [Time-Series Evaluation](projects/time-series-evaluation.md) — วิธีตรวจสอบการทดลองข้อมูลตามลำดับเวลาและป้องกันข้อมูลรั่วจากอนาคต
+| โครงงาน | ทักษะที่แสดง | รายละเอียด |
+|---|---|---|
+| **Gold News Analyzer** *(กำลังวิจัย)* | วิเคราะห์ข่าวการเงิน, NLP, การประเมินโมเดลตามลำดับเวลา | [ภาพรวมโครงงาน](projects/gold-news-analyzer.md) |
+| **Algorithmic Trading Systems Research** | การพัฒนา MQL5/Python, Debugging, Backtesting และความสามารถในการทดสอบซ้ำ | [ภาพรวมงานวิจัย](projects/algorithmic-trading-research.md) |
+| **Synthetic Walk-Forward Evaluation** | Python, Walk-Forward, Baseline, MAE/RMSE และ Unit Tests | [โค้ดตัวอย่าง](examples/walk_forward_synthetic.py) · [คำอธิบาย](projects/synthetic-walk-forward-demo.md) |
+| **Synthetic Volatility Demo** | ข้อมูล OHLC จำลองและการคำนวณ True Range/ATR | [โค้ดตัวอย่าง](demo/synthetic_volatility.py) |
 
-## ตัวอย่างโค้ด Python
+## ทักษะและเครื่องมือ
 
-`demo/synthetic_volatility.py` ใช้ **ข้อมูลสังเคราะห์** เท่านั้น เพื่อสาธิตการคำนวณค่าความผันผวนทางสถิติ ไม่มีการเชื่อมต่อ MT5 ไม่มีระบบเปิดคำสั่ง BUY/SELL และไม่มีสูตรเทรดจริง
+- **ภาษาโปรแกรม:** Python, MQL5, SQL และวิชาที่ศึกษาเพิ่มเติม Java, JavaScript/TypeScript
+- **เครื่องมือพัฒนา:** VS Code, Git/GitHub, MetaEditor, MT5 Strategy Tester, Google Colab, Jupyter
+- **ข้อมูลและการวิจัย:** Time-Series Analysis, Backtesting, การจัดทำบันทึกการทดลอง, Unit Testing
+- **AI/ML:** ChatGPT, Claude, scikit-learn และกำลังศึกษา FinBERT, PyTorch, Gradient Boosting
+
+## การใช้ AI ช่วยพัฒนาซอฟต์แวร์
+
+ใช้ **ChatGPT และ Claude** ช่วยพัฒนาโปรแกรม วิเคราะห์และแก้ไขข้อผิดพลาด ทบทวนโค้ด วางแผนการทดลอง และจัดทำเอกสารทางเทคนิค พร้อม **ตรวจสอบผลด้วยการทดสอบอย่างเป็นระบบ** ไม่ถือว่าคำตอบจาก AI ถูกต้องโดยอัตโนมัติ
+
+## วิธีทดลองโค้ดตัวอย่าง
+
+ใช้ Python 3.10+ และ Standard Library
 
 ```bash
+python examples/walk_forward_synthetic.py
 python demo/synthetic_volatility.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
 
-## ขอบเขตข้อมูลที่เก็บเป็นความลับ
+ข้อมูลในโค้ดตัวอย่างเป็น **ข้อมูลสังเคราะห์** เพื่อแสดงวิธีประเมินโปรแกรมและโมเดลเท่านั้น ไม่ใช่ผลกำไรหรือคำแนะนำการลงทุน
 
-ไม่รวมโค้ด EA จริง, สูตรตัดสินใจซื้อขาย, พารามิเตอร์เฉพาะ, รหัสผ่าน, Token, ข้อมูลบัญชี, ไฟล์ Tester/Log, ข้อมูลราคาและข่าวที่มีข้อจำกัด หรือผลวิจัยที่ยังไม่ต้องการเผยแพร่
+[English version](README.md) · [เช็กลิสต์การตรวจความปลอดภัย](SECURITY_CHECKLIST_TH.md)
 
-**คำอธิบายโปรเจกต์ไม่ได้หมายถึงการรับรองว่ากลยุทธ์มีกำไรหรือโมเดลทำนายถูกต้องแล้ว** อ่าน [เช็กลิสต์ความปลอดภัย](SECURITY_CHECKLIST_TH.md) ก่อนเผยแพร่ทุกครั้ง
-
-## โค้ดตัวอย่างใหม่: การประเมินข้อมูลตามลำดับเวลา
-
-[รายละเอียดโค้ด](projects/synthetic-walk-forward-demo.md) · [โค้ด Python](examples/walk_forward_synthetic.py)
-
-ตัวอย่างนี้สร้างตัวเลขสังเคราะห์ขึ้นเอง จากนั้นทดสอบโมเดลพื้นฐานด้วย Walk-Forward Validation วัด MAE/RMSE และมี Unit Tests ตรวจการใช้ข้อมูลอนาคต ไม่ได้ใช้ข้อมูลตลาดจริงหรือ Logic ซื้อขายใด ๆ
-
-```bash
-python examples/walk_forward_synthetic.py
-python -m unittest discover -s tests -v
-```
+*Repository นี้ประกอบด้วยสรุปโครงการและตัวอย่างสำหรับการศึกษา ไม่รวมระบบเทรดจริงหรือข้อมูลส่วนตัวของบัญชี*
