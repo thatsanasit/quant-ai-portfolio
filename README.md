@@ -7,12 +7,16 @@ I develop and evaluate software projects involving Python, MQL5, data analysis a
 
 ## Selected projects
 
+**[Browse the complete Project Showcase](projects/README.md)** — current research, runnable demonstrations, and project status in one place.
+
+
 | Project | Engineering focus | Explore |
 |---|---|---|
 | **Gold News Analyzer** *(research in progress)* | Financial NLP, sentiment analysis, market-data feature research and time-aware ML evaluation | [Project overview](projects/gold-news-analyzer.md) |
 | **Algorithmic Trading Systems Research** | MQL5/Python development, debugging, experiment organization and reproducible backtesting | [Project overview](projects/algorithmic-trading-research.md) |
 | **Synthetic Walk-Forward Evaluation** | Python, chronological evaluation, baseline comparisons, MAE/RMSE and unit tests | [Source code](examples/walk_forward_synthetic.py) · [Documentation](projects/synthetic-walk-forward-demo.md) |
 | **Synthetic Volatility Demo** | Deterministic artificial OHLC data, true range and simple ATR | [Source code](demo/synthetic_volatility.py) |
+| **Synthetic Sales Analytics Pipeline** *(AI-assisted educational demo)* | Data validation, duplicate handling, business reporting, Python unit tests | [Details](projects/synthetic-sales-analytics.md) · [Python](examples/synthetic_sales_pipeline.py) |
 
 ## Technical skills
 
@@ -32,6 +36,7 @@ Requires Python 3.10+; standard library only.
 ```bash
 python examples/walk_forward_synthetic.py
 python demo/synthetic_volatility.py
+python examples/synthetic_sales_pipeline.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
