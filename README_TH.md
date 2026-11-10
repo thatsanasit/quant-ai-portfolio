@@ -7,12 +7,16 @@
 
 ## ผลงานที่น่าสนใจ
 
+**[ดู Project Showcase ทั้งหมด](projects/README_TH.md)** — แยกงานวิจัยที่กำลังทำกับโค้ดตัวอย่างที่รันได้
+
+
 | โครงงาน | ทักษะที่แสดง | รายละเอียด |
 |---|---|---|
 | **Gold News Analyzer** *(กำลังวิจัย)* | วิเคราะห์ข่าวการเงิน, NLP, การประเมินโมเดลตามลำดับเวลา | [ภาพรวมโครงงาน](projects/gold-news-analyzer.md) |
 | **Algorithmic Trading Systems Research** | การพัฒนา MQL5/Python, Debugging, Backtesting และความสามารถในการทดสอบซ้ำ | [ภาพรวมงานวิจัย](projects/algorithmic-trading-research.md) |
 | **Synthetic Walk-Forward Evaluation** | Python, Walk-Forward, Baseline, MAE/RMSE และ Unit Tests | [โค้ดตัวอย่าง](examples/walk_forward_synthetic.py) · [คำอธิบาย](projects/synthetic-walk-forward-demo.md) |
 | **Synthetic Volatility Demo** | ข้อมูล OHLC จำลองและการคำนวณ True Range/ATR | [โค้ดตัวอย่าง](demo/synthetic_volatility.py) |
+| **Synthetic Sales Analytics Pipeline** *(ตัวอย่างสร้างด้วย AI ช่วย)* | Python, Data Cleaning, การจัดการข้อมูลซ้ำ และ Unit Tests | [รายละเอียด](projects/synthetic-sales-analytics.md) |
 
 ## ทักษะและเครื่องมือ
 
@@ -32,6 +36,7 @@
 ```bash
 python examples/walk_forward_synthetic.py
 python demo/synthetic_volatility.py
+python examples/synthetic_sales_pipeline.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
