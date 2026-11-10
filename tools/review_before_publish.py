@@ -21,6 +21,11 @@ ALLOWED = {
     "examples/walk_forward_synthetic.py",
     "tests/test_walk_forward_synthetic.py",
     "projects/synthetic-walk-forward-demo.md",
+    "examples/synthetic_sales_pipeline.py",
+    "tests/test_synthetic_sales_pipeline.py",
+    "projects/synthetic-sales-analytics.md",
+    "projects/README.md",
+    "projects/README_TH.md",
 }
 PATTERNS = {
     "private key": r"-----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----",
