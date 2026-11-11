@@ -1,54 +1,49 @@
 # ทัศนสิทธิ์ เจริญธรรมรักษ์
-### นักศึกษาเทคโนโลยีสารสนเทศอัจฉริยะ | Quantitative Development · Applied AI · Data Analysis
 
-**สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์**
+**นักศึกษาเทคโนโลยีสารสนเทศอัจฉริยะ | Quantitative Software · Python · Applied AI**
 
-สนใจการพัฒนาซอฟต์แวร์เชิงปริมาณ การวิเคราะห์ข้อมูล AI/Machine Learning และการออกแบบการทดลองที่ตรวจสอบผลได้ โดยมีประสบการณ์ทำโปรเจกต์ด้วย Python และ MQL5
+สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์
 
-## ผลงานที่น่าสนใจ
+สนใจการพัฒนาซอฟต์แวร์ด้วย Python และ MQL5 การวิเคราะห์ข้อมูล AI/Machine Learning และการออกแบบการทดลองที่ตรวจสอบผลซ้ำได้
 
-**[ดู Project Showcase ทั้งหมด](projects/README_TH.md)** — แยกงานวิจัยที่กำลังทำกับโค้ดตัวอย่างที่รันได้
+## ผลงานหลัก
 
-
-| โครงงาน | ทักษะที่แสดง | รายละเอียด |
+| โปรเจกต์ | สิ่งที่ทำ | ดูผลงาน |
 |---|---|---|
-| **Gold News Analyzer** *(กำลังวิจัย)* | วิเคราะห์ข่าวการเงิน, NLP, การประเมินโมเดลตามลำดับเวลา | [ภาพรวมโครงงาน](projects/gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | การพัฒนา MQL5/Python, Debugging, Backtesting และความสามารถในการทดสอบซ้ำ | [ภาพรวมงานวิจัย](projects/algorithmic-trading-research.md) · [ภาพประวัติ MT5 จริง](projects/mt5-forward-testing-evidence_TH.md) |
-| **Synthetic Walk-Forward Evaluation** | Python, Walk-Forward, Baseline, MAE/RMSE และ Unit Tests | [โค้ดตัวอย่าง](examples/walk_forward_synthetic.py) · [คำอธิบาย](projects/synthetic-walk-forward-demo.md) |
-| **Synthetic Volatility Demo** | ข้อมูล OHLC จำลองและการคำนวณ True Range/ATR | [โค้ดตัวอย่าง](demo/synthetic_volatility.py) |
-| **Synthetic Sales Analytics Pipeline** *(ตัวอย่างสร้างด้วย AI ช่วย)* | Python, Data Cleaning, การจัดการข้อมูลซ้ำ และ Unit Tests | [รายละเอียด](projects/synthetic-sales-analytics.md) |
+| **Algorithmic Trading Systems Research** | พัฒนาระบบด้วย MQL5/MT5, ติดตามผลการทดลอง, Debugging และประเมินการทำงานบนบัญชี Demo | [โครงงาน](projects/algorithmic-trading-research.md) · [ภาพ MT5 จริง](projects/mt5-forward-testing-evidence_TH.md) |
+| **Machine Learning Model Evaluation** | ทดลอง Random Forest และ LightGBM แบ่งข้อมูลตามเวลา ประเมิน ROC AUC/Brier และสร้างโค้ดฝึกโมเดลตัวอย่าง | [กรณีศึกษา](projects/ml-chronological-evaluation_TH.md) · [Python](examples/synthetic_ml_training.py) |
+| **Gold News Analyzer** *(กำลังพัฒนา)* | ศึกษาการวิเคราะห์ข่าวการเงิน ความเชื่อมั่น ทิศทางราคาและความผันผวนของทองคำ | [รายละเอียด](projects/gold-news-analyzer.md) |
 
-| **ML Model Training & Chronological Evaluation** *(กรณีศึกษา + เดโมฝึกโมเดล)* | ฝึก Random Forest / LightGBM, ROC AUC, Brier Score, ประเมินตามเวลา | [กรณีศึกษาภาษาไทย](projects/ml-chronological-evaluation_TH.md) · [โค้ดฝึกโมเดล](examples/synthetic_ml_training.py) |
+## ตัวอย่างโค้ด Python เพิ่มเติม
+
+| โปรเจกต์ | ทักษะที่แสดง | โค้ด |
+|---|---|---|
+| **Walk-Forward Evaluation** | Time Series, AR(1), MAE/RMSE, ป้องกัน Data Leakage | [Python](examples/walk_forward_synthetic.py) · [รายละเอียด](projects/synthetic-walk-forward-demo.md) |
+| **Sales Analytics Pipeline** | Data Validation, Deduplication, Aggregation, Unit Tests | [Python](examples/synthetic_sales_pipeline.py) · [รายละเอียด](projects/synthetic-sales-analytics.md) |
+| **Volatility Analysis** | ข้อมูล OHLC สังเคราะห์และการคำนวณ True Range/ATR | [Python](demo/synthetic_volatility.py) |
+
+ตัวอย่างโค้ดที่รันได้ใช้ **ข้อมูลสังเคราะห์** ส่วนกรณีศึกษา ML อธิบายการทดลองเดิมที่ผลยังมีข้อจำกัด และหน้า MT5 แสดง **ภาพการทดลองบนบัญชี Demo จริง** ไม่ใช่คำกล่าวอ้างว่าระบบทำกำไรอย่างสม่ำเสมอ
 
 ## ทักษะและเครื่องมือ
 
-- **ภาษาโปรแกรม:** Python, MQL5, SQL และวิชาที่ศึกษาเพิ่มเติม Java, JavaScript/TypeScript
-- **เครื่องมือพัฒนา:** VS Code, Git/GitHub, MetaEditor, MT5 Strategy Tester, Google Colab, Jupyter
-- **ข้อมูลและการวิจัย:** Time-Series Analysis, Backtesting, การจัดทำบันทึกการทดลอง, Unit Testing
-- **AI/ML:** ChatGPT, Claude, scikit-learn และกำลังศึกษา FinBERT, PyTorch, Gradient Boosting
+- **Programming:** Python, MQL5, SQL; ศึกษา Java และ JavaScript/TypeScript ในรายวิชา
+- **ML / Data:** scikit-learn, LightGBM, Random Forest, การแบ่งข้อมูลตามเวลาและตัวชี้วัดเชิงสถิติ
+- **Development / Testing:** Git/GitHub, Unit Testing, VS Code, Jupyter, Google Colab, MetaEditor และ MT5 Strategy Tester
+- **AI-assisted Development:** ใช้ ChatGPT และ Claude ช่วยพัฒนา Debug และทบทวนโค้ด พร้อมตรวจสอบผลจากการทดลอง
 
-## การใช้ AI ช่วยพัฒนาซอฟต์แวร์
+## วิธีรันโค้ด
 
-ใช้ **ChatGPT และ Claude** ช่วยพัฒนาโปรแกรม วิเคราะห์และแก้ไขข้อผิดพลาด ทบทวนโค้ด วางแผนการทดลอง และจัดทำเอกสารทางเทคนิค พร้อม **ตรวจสอบผลด้วยการทดสอบอย่างเป็นระบบ** ไม่ถือว่าคำตอบจาก AI ถูกต้องโดยอัตโนมัติ
-
-## วิธีทดลองโค้ดตัวอย่าง
-
-ใช้ Python 3.10+ และ Standard Library
+แนะนำ Python 3.10+ และติดตั้งไลบรารีสำหรับตัวอย่าง ML ก่อนรัน Test Suite ทั้งหมด
 
 ```bash
+python -m pip install -r requirements-ml.txt
+python examples/synthetic_ml_training.py
 python examples/walk_forward_synthetic.py
-python demo/synthetic_volatility.py
 python examples/synthetic_sales_pipeline.py
-# ตัวอย่าง ML แยก: ติดตั้ง requirements-ml.txt ก่อน
-# python examples/synthetic_ml_training.py
+python demo/synthetic_volatility.py
 python -m unittest discover -s tests -v
-python tools/review_before_publish.py
 ```
 
-โค้ดสาธิตมาตรฐานใช้ Python Standard Library ส่วนเดโม ML เพิ่มเติมต้องติดตั้งไลบรารีจาก requirements-ml.txt
+**[ดูรายละเอียดทุกโปรเจกต์](projects/README_TH.md)** · **[English version](README.md)**
 
-ข้อมูลในโค้ดตัวอย่างเป็น **ข้อมูลสังเคราะห์** เพื่อแสดงวิธีประเมินโปรแกรมและโมเดลเท่านั้น ไม่ใช่ผลกำไรหรือคำแนะนำการลงทุน
-
-[English version](README.md) · [เช็กลิสต์การตรวจความปลอดภัย](SECURITY_CHECKLIST_TH.md) · [เช็กก่อนเปิด Public](PUBLIC_RELEASE_CHECKLIST_TH.md) · [เตรียมสัมภาษณ์](INTERVIEW_PREP_TH.md)
-
-*Repository นี้ประกอบด้วยสรุปโครงงาน โค้ดตัวอย่าง และภาพประวัติ MT5 จริง 2 ภาพที่เจ้าของอนุญาตให้เผยแพร่โดยไม่ปิดบังข้อมูล ไม่มีโค้ด EA หรือสูตรเลือกฝั่งจริง โปรดทบทวนข้อมูลในภาพก่อนเปิด Public*
+*นำเสนอภาพรวมโครงงานและโค้ดสาธิตที่ตรวจสอบได้ โดยไม่เผยแพร่ Source Code หรือสูตรเลือกฝั่งออเดอร์ของ EA จริง*

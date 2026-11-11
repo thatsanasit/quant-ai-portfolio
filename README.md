@@ -1,58 +1,49 @@
 # Thatsanasit Charoenthammarak
-### Intelligent Information Technology Student | Quantitative Development · Applied AI · Data Analysis
 
-**School of Informatics, Walailak University**
+**Intelligent Information Technology Student | Quantitative Software · Python · Applied AI**
 
-I develop and evaluate software projects involving Python, MQL5, data analysis and AI-assisted engineering. My interests include quantitative research, reproducible experiments, financial NLP and practical machine learning.
+School of Informatics, Walailak University
 
-## Selected projects
+I build and evaluate Python and MQL5 projects with an interest in quantitative development, machine learning, data analysis, and reproducible software testing.
 
-**[Browse the complete Project Showcase](projects/README.md)** — current research, runnable demonstrations, and project status in one place.
+## Featured projects
 
-
-| Project | Engineering focus | Explore |
+| Project | What I worked on | Explore |
 |---|---|---|
-| **Gold News Analyzer** *(research in progress)* | Financial NLP, sentiment analysis, market-data feature research and time-aware ML evaluation | [Project overview](projects/gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | MQL5/Python development, debugging, experiment organization and reproducible backtesting | [Project overview](projects/algorithmic-trading-research.md) · [Original MT5 screenshots](projects/mt5-forward-testing-evidence.md) |
-| **Synthetic Walk-Forward Evaluation** | Python, chronological evaluation, baseline comparisons, MAE/RMSE and unit tests | [Source code](examples/walk_forward_synthetic.py) · [Documentation](projects/synthetic-walk-forward-demo.md) |
-| **Synthetic Volatility Demo** | Deterministic artificial OHLC data, true range and simple ATR | [Source code](demo/synthetic_volatility.py) |
-| **Synthetic Sales Analytics Pipeline** *(AI-assisted educational demo)* | Data validation, duplicate handling, business reporting, Python unit tests | [Details](projects/synthetic-sales-analytics.md) · [Python](examples/synthetic_sales_pipeline.py) |
+| **Algorithmic Trading Systems Research** | MT5/MQL5 development, experiment logging, software debugging, and demo-account evaluation | [Project](projects/algorithmic-trading-research.md) · [MT5 evidence](projects/mt5-forward-testing-evidence.md) |
+| **Machine Learning Model Evaluation** | Random Forest and LightGBM evaluation, chronological splits, ROC AUC/Brier metrics; separate runnable training example | [Case study](projects/ml-chronological-evaluation.md) · [Python code](examples/synthetic_ml_training.py) |
+| **Gold News Analyzer** *(in progress)* | Research on financial news sentiment, market direction, and volatility estimation | [Research overview](projects/gold-news-analyzer.md) |
 
-| **ML Model Training & Chronological Evaluation** *(case study + runnable synthetic demo)* | Random Forest, LightGBM, ROC AUC/Brier, chronological holdout, honest baseline evaluation | [Study](projects/ml-chronological-evaluation.md) · [Training source](examples/synthetic_ml_training.py) |
+## Additional Python projects
 
-## Technical skills
+| Project | Focus | Code |
+|---|---|---|
+| **Walk-Forward Evaluation** | Time-series baseline, AR(1), MAE/RMSE, leakage checks | [Python](examples/walk_forward_synthetic.py) · [Notes](projects/synthetic-walk-forward-demo.md) |
+| **Sales Analytics Pipeline** | Data validation, deduplication, aggregation, unit tests | [Python](examples/synthetic_sales_pipeline.py) · [Notes](projects/synthetic-sales-analytics.md) |
+| **Volatility Analysis** | Artificial OHLC observations, true range, simple ATR | [Python](demo/synthetic_volatility.py) |
 
-- **Programming:** Python · MQL5 · SQL; coursework in Java and JavaScript/TypeScript
-- **Development tools:** VS Code · Git/GitHub · MetaEditor · MetaTrader 5 Strategy Tester · Google Colab · Jupyter
-- **Data & quantitative research:** Time-series analysis · structured backtesting · experiment documentation · unit testing
-- **AI and ML:** ChatGPT · Claude · scikit-learn; exploring financial NLP/FinBERT, PyTorch and gradient-boosting methods
+All runnable portfolio demonstrations use **synthetic data**. The ML case study summarizes a separate historical experiment with limited results, while the MT5 page contains **original demo-testing screenshots**. These are not claims of trading profitability.
 
-## AI-assisted development
+## Skills and tools
 
-I use ChatGPT and Claude for **software development, debugging, code review, experiment planning and technical documentation**, while **validating outcomes through testing and systematic evaluation**. AI tools support the process; they do not replace understanding, verification or independent judgment.
+- **Programming:** Python, MQL5, SQL; Java and JavaScript/TypeScript coursework
+- **ML and data analysis:** scikit-learn, LightGBM, Random Forest, chronological validation, statistical metrics
+- **Development and testing:** Git/GitHub, unit tests, VS Code, Jupyter, Google Colab, MetaEditor, MT5 Strategy Tester
+- **AI-assisted workflow:** ChatGPT and Claude for implementation support, debugging, code review, and documentation, with testing and critical evaluation
 
-## Run the educational Python examples
+## Run the examples
 
-Requires Python 3.10+; standard library only.
+Python 3.10+ is recommended. Install the additional dependencies to run the ML example and the full test suite.
 
 ```bash
+python -m pip install -r requirements-ml.txt
+python examples/synthetic_ml_training.py
 python examples/walk_forward_synthetic.py
-python demo/synthetic_volatility.py
 python examples/synthetic_sales_pipeline.py
-# Optional ML demo: install requirements-ml.txt then run
-# python examples/synthetic_ml_training.py
+python demo/synthetic_volatility.py
 python -m unittest discover -s tests -v
-python tools/review_before_publish.py
 ```
 
-The standard-library examples use **synthetic data only**; the optional ML demonstration also uses synthetic data but requires dependencies in requirements-ml.txt. The separate historical ML case study is reported without its private dataset. These examples use **no authentic trade records**, and are for demonstrating software engineering and evaluation methods, not investment advice or performance claims.
+**[Browse all project descriptions](projects/README.md)** · **[ภาษาไทย](README_TH.md)**
 
-## Other information
-
-- [ภาษาไทย / Thai version](README_TH.md)
-- [Security review checklist (Thai)](SECURITY_CHECKLIST_TH.md)
-- [Public release checklist (Thai)](PUBLIC_RELEASE_CHECKLIST_TH.md)
-- [Internship interview preparation (Thai)](INTERVIEW_PREP_TH.md)
-- [GitHub profile introduction template](PROFILE_README_TEMPLATE.md)
-
-*Portfolio scope: research summaries, educational examples, and two owner-approved original MT5 order-history screenshots with visible trade details. Proprietary EA code and strategy rules are not included. Review screenshots before making the repository Public.*
+*Project descriptions and demonstrations are provided for technical review. Proprietary EA source code and trading decision rules are not included.*

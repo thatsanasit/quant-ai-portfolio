@@ -1,27 +1,29 @@
 # Algorithmic Trading Systems Research
 
-**Context:** Independent student software engineering / research  
-**Technologies:** MQL5 (MetaTrader 5), Python, testing and experiment analysis  
-**Disclosure:** High-level description only
+**Type:** Independent student research and software engineering  
+**Technology:** MetaTrader 5, MQL5, Python  
+**Testing:** MT5 demo-account experiments
 
-## Goal
+## Project overview
 
-Explore how automated trading applications can be developed, tested and evaluated systematically, with emphasis on software reliability rather than unverified trading performance.
+Develop and evaluate automated order-execution software, with emphasis on testing reliability, understanding failure cases, and making research results reproducible.
 
-## Engineering work
+## Engineering activities
 
-- Structuring experiments and comparing software variants
-- Studying reproducible tests and avoiding environmental sources of nondeterminism
-- Reviewing logs and investigating software or evaluation errors
-- Considering transaction costs, statistical uncertainty, and out-of-sample validation
+- Build and debug MQL5-based automated systems
+- Observe executed orders and compare system variants
+- Investigate execution history, errors, and test reproducibility
+- Consider transaction costs, uncertainty, and out-of-sample evaluation
+- Document when particular market conditions appear favorable or unfavorable
 
-## Forward-testing evidence (original screenshots)
+## Evidence from MT5
 
-Two [authentic MT5 order-history screenshots from 29 October 2026](mt5-forward-testing-evidence.md) are available, with a [Thai explanation](mt5-forward-testing-evidence_TH.md). The excerpts show both successful and losing trades. Some market periods may suit a strategy better than others, but these images do not establish reliable performance in all trends or market regimes.
+[View original MT5 demo-testing screenshots](mt5-forward-testing-evidence.md) · [คำอธิบายภาษาไทย](mt5-forward-testing-evidence_TH.md)
 
+These selected periods show both profitable and losing trades. Some entry/exit sequences worked well, but the system did not perform perfectly on every trade. The screenshots alone cannot establish reliable long-term profitability or superiority in trending markets.
 
-## Confidential materials not included
+## Scope
 
-Actual Expert Advisor source code, proprietary BUY/SELL decision rules, optimized parameters, credentials, complete trading history, and detailed system datasets are not published. **Two original order-history screenshots have been published with the owner's permission**; they contain individual trade details.
+Source code, proprietary signal-selection logic, and complete private datasets are not included. This case study is presented as **software engineering and experiment documentation**, not financial advice or a verified trading-performance claim.
 
-**No profitable-trading claim is made.** This description shows research and software engineering skills only.
+[Project Showcase](README.md)

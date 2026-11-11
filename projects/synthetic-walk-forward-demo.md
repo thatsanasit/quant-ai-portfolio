@@ -1,33 +1,26 @@
-# Synthetic Walk-Forward Evaluation Demo
+# Synthetic Walk-Forward Evaluation
 
-**Status:** Educational, self-contained code demonstration (not a market model).  
-**Technology:** Python standard library, unit testing, time-series evaluation.
+**Python educational demonstration — artificial data only**
 
-## What this demonstrates
+## What it implements
 
-- Creation of deterministic **artificial** numerical observations
-- Expanding-window training, with each prediction using only earlier observations
-- Comparison between a persistence baseline and a small AR(1) linear-regression model
-- Reporting mean absolute error (MAE) and root mean squared error (RMSE)
-- Tests that appended future observations cannot alter earlier predictions
-- Reproducible experiments with a fixed random seed
+- Deterministic numerical observations with a fixed random seed
+- Expanding-window fitting with predictions based on earlier observations only
+- Persistence baseline compared with an AR(1)-style linear regression model
+- Evaluation using MAE and RMSE
+- Unit tests including a check that future observations do not change past predictions
 
-## Run locally
+## Run
 
-Requires Python 3.10+.
+Python 3.10+; standard library only.
 
 ```bash
 python examples/walk_forward_synthetic.py
-python -m unittest discover -s tests -v
-python tools/review_before_publish.py
+python -m unittest discover -s tests -p "test_walk_forward_synthetic.py" -v
 ```
 
-## Evaluation design
+For a forecast at time `t`, the model is trained only on `values[:t]`; the observation at `t` is used to measure the error afterward.
 
-For each prediction at index `t`, fit the model using `values[:t]` only. The model and naive baseline forecast `values[t]`. Actual values at `t` are accessed only when scoring predictions.
+This demonstration is intentionally small and is **not** a real market model or verified investment strategy.
 
-The synthetic generator is deliberately arbitrary. Its results cannot be interpreted as evidence about gold, trading or any real asset. This repository does **not** contain trading signal logic, order execution, tuned parameters, live data, account details, private EA code, real backtests or learned model weights.
-
-## Boundaries
-
-The code is intentionally small so reviewers can inspect each assumption. It is **not** a production-grade model, financial forecast or investment system.
+[Source](../examples/walk_forward_synthetic.py) · [Tests](../tests/test_walk_forward_synthetic.py) · [Project index](README.md)

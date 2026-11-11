@@ -1,33 +1,34 @@
 # Project Showcase
 
-**Intelligent Information Technology — Quantitative Software, AI and Data Engineering**
+A selection of software, data, and AI/ML projects. **Research work, preliminary results, and runnable examples are clearly distinguished.**
 
-Explore selected research and educational projects. Work that is still in progress is identified separately from runnable code.
+## Featured work
 
-| Project | Status | Key skills | Materials |
-|---|---|---|---|
-| **ML Model Training & Chronological Evaluation** | **Historical case study + runnable independent synthetic demo** | Random Forest, LightGBM, AUC, Brier, Python testing | [Study](ml-chronological-evaluation.md) · [Training code](../examples/synthetic_ml_training.py) |
-| **Gold News Analyzer** | **Research in progress** | Financial NLP, sentiment, ML evaluation | [Overview](gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | **Independent research; overview only** | MQL5, Python, debugging, reproducible testing | [Overview](algorithmic-trading-research.md) · [Original MT5 screenshot evidence](mt5-forward-testing-evidence.md) |
-| **Walk-Forward Evaluation** | **Runnable educational demo** | Time-aware validation, AR(1), error metrics, tests | [Details](synthetic-walk-forward-demo.md) · [Python](../examples/walk_forward_synthetic.py) |
-| **Synthetic Volatility Analysis** | **Runnable educational demo** | OHLC-like data, true range, ATR, Python | [Python](../demo/synthetic_volatility.py) |
-| **Synthetic Sales Analytics Pipeline** | **Runnable AI-assisted demo** | Data validation, deduplication, aggregation, unit tests | [Details](synthetic-sales-analytics.md) · [Python](../examples/synthetic_sales_pipeline.py) |
+| Project | Status | Evidence |
+|---|---|---|
+| [Algorithmic Trading Systems Research](algorithmic-trading-research.md) | Independent systems research and demo testing | [Original MT5 test screenshots](mt5-forward-testing-evidence.md) |
+| [Machine Learning Model Evaluation](ml-chronological-evaluation.md) | Historical approximate ML study + independent runnable synthetic classifier | [Random Forest / LightGBM code](../examples/synthetic_ml_training.py) · [Tests](../tests/test_synthetic_ml_training.py) |
+| [Gold News Analyzer](gold-news-analyzer.md) | Research in progress | Research objectives and proposed evaluation approach |
 
-## Research vs. demonstrations
+## Additional runnable demonstrations
 
-**Gold News Analyzer** is a research direction, not a deployed product or proof of predictive accuracy. **Algorithmic Trading Systems Research** summarizes engineering work and includes two owner-approved real MT5 screenshots (including both wins and losses) without uploading the EA source code.
+| Project | What it demonstrates |
+|---|---|
+| [Walk-Forward Evaluation](synthetic-walk-forward-demo.md) | Python time-series evaluation and leakage tests |
+| [Sales Analytics Pipeline](synthetic-sales-analytics.md) | Python data quality, aggregation and unit tests |
+| [Volatility Analysis](../demo/synthetic_volatility.py) | True range and simple ATR on artificial OHLC data |
 
-**Walk-Forward, Volatility, Sales Analytics and the new ML training demonstration** are small independently runnable samples made using synthetic information. They demonstrate general programming skills rather than a production implementation or a claim of personal authorship of every line. AI assistance was used to prepare the portfolio samples.
-
-## Quick start
+## Reproduce the code examples
 
 ```bash
+python -m pip install -r requirements-ml.txt
+python examples/synthetic_ml_training.py
 python examples/walk_forward_synthetic.py
-python demo/synthetic_volatility.py
 python examples/synthetic_sales_pipeline.py
+python demo/synthetic_volatility.py
 python -m unittest discover -s tests -v
 ```
 
-The original examples use Python 3.10+ and the standard library. The separate synthetic ML training demo requires `pip install -r requirements-ml.txt`.
+All executable examples use synthetic observations; the separate MT5 page includes the author's original demo-account testing screenshots. No proprietary EA source code is published.
 
-[Read in Thai](README_TH.md) · [Back to portfolio](../README.md)
+[ภาษาไทย](README_TH.md) · [Portfolio home](../README.md)

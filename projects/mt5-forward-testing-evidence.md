@@ -1,38 +1,31 @@
-# MT5 Forward-Testing Evidence — Original Screenshots (29 October 2026)
+# MT5 Demo Testing — Original Execution History
 
 **Project:** Algorithmic Trading Systems Research  
-**Platform:** MetaTrader 5 (MT5), XAUUSD M1 order-history view  
-**Evidence:** Two authentic, unredacted screenshots provided and explicitly authorized for inclusion by the project owner.
+**Environment:** MetaTrader 5 Demo account (as described by the project author)  
+**Instrument/timeframe shown:** XAUUSD M1  
+**Screenshots:** Two distinct excerpts from 29 October 2026
 
-## Screenshot A — morning excerpt
+## Sample A — morning
 
-![Original MT5 order-history screenshot, morning excerpt](../assets/mt5-history-2026-10-29-morning.png)
+![MT5 Demo order-history screenshot — morning](../assets/mt5-history-2026-10-29-morning.png)
 
-## Screenshot B — afternoon excerpt
+## Sample B — afternoon
 
-![Original MT5 order-history screenshot, afternoon excerpt](../assets/mt5-history-2026-10-29-afternoon.png)
+![MT5 Demo order-history screenshot — afternoon](../assets/mt5-history-2026-10-29-afternoon.png)
 
-The first and third images supplied in the original discussion were duplicates; only the **two distinct excerpts** are used here. These files are original screenshots, not illustrative diagrams or recreated charts.
+## Observations
 
-## What the screenshots demonstrate
+The order history shows repeated automated BUY/SELL executions and closed positions. Several entries reached profitable exits, while other trades incurred losses or reached stop-loss levels.
 
-- The platform's order-history view contains multiple completed BUY/SELL orders, with entry and closing information and trade-by-trade outcomes.
-- **Some entries and exits were successful during the displayed windows**, while other trades incurred losses, including stop-loss outcomes.
-- It is plausible that **some favorable market conditions, including directional or trending phases**, can suit a given algorithmic strategy; however, these screenshots alone **cannot establish** which market regime caused those wins or that the EA performs consistently well when markets trend.
-- Performance is **not uniformly positive**. Losing trades, changing volatility and unfavorable market conditions remain important research and engineering challenges.
+**Some market periods appear more favorable than others**, and a number of entries and exits in the displayed windows were successful. This does not imply that the strategy works consistently in every trend, regime, or volatility condition. These screenshots are *selected examples*, not a comprehensive performance report.
 
-## Engineering focus
+## What this demonstrates
 
-The project focuses on building and testing automated software, observing order execution, reviewing trade histories, diagnosing failure cases, designing repeatable experiments, and evaluating systems across different market conditions.
+- Monitoring execution in MetaTrader 5
+- Inspecting trade histories and diagnosing unfavorable entries
+- Documenting both successful and unsuccessful tests
+- Understanding the distinction between observed trades and statistical evidence
 
-## Interpretation limits
+**Limitations:** A pair of screenshots cannot verify full account returns, overall win rate, maximum drawdown, or future performance. They are included as evidence of a demo-testing workflow.
 
-These selected screenshots **are not** a full accounting statement, a complete backtest, a statistically representative sample or proof of profitability. Do not infer an overall win rate, total net return, Sharpe ratio, maximum drawdown, or future performance from these excerpts. Account mode (demo/real) is not independently established by the captured pixels alone.
-
-## Publication notice
-
-The owner **explicitly approved uploading these two original images without redaction**. They reveal ticket numbers, execution timestamps, symbol, order directions, volume, prices, SL/TP levels, and per-trade P&L. The repository is currently Private; **changing its visibility to Public would publish all these details and the commit history as well**. Actual EA source code, proprietary decision rules and credentials are not published here.
-
-This portfolio material demonstrates software testing and documentation, **not investment advice or a claim of guaranteed or continuous profits**.
-
-[Back to algorithmic trading project](algorithmic-trading-research.md) · [ภาษาไทย](mt5-forward-testing-evidence_TH.md)
+[Back to project](algorithmic-trading-research.md) · [ภาษาไทย](mt5-forward-testing-evidence_TH.md)
