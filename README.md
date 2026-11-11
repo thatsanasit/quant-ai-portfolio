@@ -13,7 +13,7 @@ I develop and evaluate software projects involving Python, MQL5, data analysis a
 | Project | Engineering focus | Explore |
 |---|---|---|
 | **Gold News Analyzer** *(research in progress)* | Financial NLP, sentiment analysis, market-data feature research and time-aware ML evaluation | [Project overview](projects/gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | MQL5/Python development, debugging, experiment organization and reproducible backtesting | [Project overview](projects/algorithmic-trading-research.md) |
+| **Algorithmic Trading Systems Research** | MQL5/Python development, debugging, experiment organization and reproducible backtesting | [Project overview](projects/algorithmic-trading-research.md) · [Privacy-safe MT5 evidence](projects/mt5-forward-testing-evidence.md) |
 | **Synthetic Walk-Forward Evaluation** | Python, chronological evaluation, baseline comparisons, MAE/RMSE and unit tests | [Source code](examples/walk_forward_synthetic.py) · [Documentation](projects/synthetic-walk-forward-demo.md) |
 | **Synthetic Volatility Demo** | Deterministic artificial OHLC data, true range and simple ATR | [Source code](demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** *(AI-assisted educational demo)* | Data validation, duplicate handling, business reporting, Python unit tests | [Details](projects/synthetic-sales-analytics.md) · [Python](examples/synthetic_sales_pipeline.py) |
