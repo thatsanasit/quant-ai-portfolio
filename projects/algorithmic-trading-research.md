@@ -1,29 +1,52 @@
 # Algorithmic Trading Systems Research
 
-**Type:** Independent student research and software engineering  
-**Technology:** MetaTrader 5, MQL5, Python  
-**Testing:** MT5 demo-account experiments
+**Type:** Independent student software engineering and research  
+**Stack:** MQL5, MetaTrader 5, Python, testing and experiment analysis  
+**Environment:** MT5 demo-account experiments
 
-## Project overview
+## Why I built this project
 
-Develop and evaluate automated order-execution software, with emphasis on testing reliability, understanding failure cases, and making research results reproducible.
+I wanted to understand how an automated trading system can make decisions, send orders, and be **tested and debugged as software**, rather than judging it by a few profitable trades. Short timeframes are noisy; price can reverse or continue rapidly, and an entry that looks reasonable can still reach its stop-loss first.
 
-## Engineering activities
+The engineering goal is to improve the **quality of experiments and error analysis**. It is not a claim that the system is reliably profitable.
 
-- Build and debug MQL5-based automated systems
-- Observe executed orders and compare system variants
-- Investigate execution history, errors, and test reproducibility
-- Consider transaction costs, uncertainty, and out-of-sample evaluation
-- Document when particular market conditions appear favorable or unfavorable
+## What I worked on
 
-## Evidence from MT5
+- **MQL5 implementation and debugging:** Developed and iterated automated order-execution experiments in MetaTrader 5.
+- **Order-history inspection:** Reviewed timestamps, directions, exits and loss cases to understand system behavior.
+- **Variant comparison:** Compared different versions and kept records of what changed rather than assuming a newer version is better.
+- **Reproducible testing:** Investigated conditions that can make repeated backtests produce different orders and worked with controlled testing procedures.
+- **Python-based analysis:** Used scripts and summarized results to examine experiments while separating exploratory observations from stronger evidence.
+- **AI-assisted development:** Used AI tools to support code review, troubleshooting and research documentation, followed by verification and testing.
 
-[View original MT5 demo-testing screenshots](mt5-forward-testing-evidence.md) · [คำอธิบายภาษาไทย](mt5-forward-testing-evidence_TH.md)
+## Why these steps matter
 
-These selected periods show both profitable and losing trades. Some entry/exit sequences worked well, but the system did not perform perfectly on every trade. The screenshots alone cannot establish reliable long-term profitability or superiority in trending markets.
+| Problem | Engineering reasoning |
+|---|---|
+| The system sometimes enters on the wrong side or at the wrong moment | Review prior market context and execution history, then test hypotheses rather than modifying rules based on one trade |
+| A few trades win consecutively | A short sequence is not enough to prove an advantage; evaluate longer windows and different market conditions |
+| Backtests differ between repeated runs | Check reproducibility, data assumptions and potential dependence on machine/runtime state |
+| Many trades have small profit targets | Spread, slippage and trading costs can materially change the result |
+| A new version appears better | Compare on held-out periods, account for sample size and avoid tuning directly to the test set |
+| A machine-learning model produces predictions | Compare it with a baseline and verify whether decisions actually improve, not just whether a metric is above chance |
 
-## Scope
+## Evidence and observations
 
-Source code, proprietary signal-selection logic, and complete private datasets are not included. This case study is presented as **software engineering and experiment documentation**, not financial advice or a verified trading-performance claim.
+[Original MT5 demo-testing screenshots](mt5-forward-testing-evidence.md) · [คำอธิบายภาษาไทย](algorithmic-trading-research_TH.md)
 
-[Project Showcase](README.md)
+The screenshots from two periods show both successful and losing exits. **Some market phases appeared more favorable for certain entries, but performance was not consistently good.** The screenshots cannot establish that a particular trend regime was the cause of the winning trades or that the EA is profitable overall.
+
+## Limitations and what I learned
+
+- Signal selection, testing assumptions and market conditions can interact in ways that are difficult to infer from one trade.
+- Reproducibility matters: an apparent improvement is less meaningful if the test cannot be repeated reliably.
+- Strong evaluation requires multiple time periods, appropriate baselines and explicit treatment of uncertainty and trading costs.
+- Even unsuccessful experiments can reveal software defects, flawed assumptions, or useful next research questions.
+
+## Scope of publication
+
+This page intentionally omits **proprietary EA source code, detailed BUY/SELL decision logic, optimized strategy parameters, account credentials and complete private datasets**. Screenshots are from the author's demo-testing workflow.
+
+**This is a software engineering case study, not proof of investment returns or financial advice.**
+
+[Project Showcase](README.md) · [Thai version](algorithmic-trading-research_TH.md)
