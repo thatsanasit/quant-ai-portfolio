@@ -6,7 +6,7 @@
 
 | โปรเจกต์ | สถานะ | หลักฐาน |
 |---|---|---|
-| [Algorithmic Trading Systems Research](algorithmic-trading-research.md) | วิจัยและทดลองระบบด้วย MT5 Demo | [ภาพประวัติ MT5 จริง](mt5-forward-testing-evidence_TH.md) |
+| [Algorithmic Trading Systems Research](algorithmic-trading-research_TH.md) | วิจัยและทดลองระบบด้วย MT5 Demo | [ภาพประวัติ MT5 จริง](mt5-forward-testing-evidence_TH.md) |
 | [Machine Learning Model Evaluation](ml-chronological-evaluation_TH.md) | ผลการทดลองเดิมแบบประมาณ + ตัวอย่างฝึก ML ที่รันได้ | [โค้ด Random Forest / LightGBM](../examples/synthetic_ml_training.py) · [Tests](../tests/test_synthetic_ml_training.py) |
 | [Gold News Analyzer](gold-news-analyzer.md) | งานวิจัยระหว่างพัฒนา | เป้าหมายและแนวทางการประเมิน |
 
