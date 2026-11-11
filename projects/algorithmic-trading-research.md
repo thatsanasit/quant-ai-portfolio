@@ -15,12 +15,13 @@ Explore how automated trading applications can be developed, tested and evaluate
 - Reviewing logs and investigating software or evaluation errors
 - Considering transaction costs, statistical uncertainty, and out-of-sample validation
 
-## Forward-testing evidence (privacy-safe)
+## Forward-testing evidence (original screenshots)
 
-A [documentation exhibit from two MT5 order-history screenshot excerpts](mt5-forward-testing-evidence.md) is available, with a [Thai explanation](mt5-forward-testing-evidence_TH.md). It uses a **schematic reconstruction**, not the original screenshots or real order-level records. It demonstrates a testing/documentation workflow without claiming profitability, disclosing implementation details, or treating the two excerpts as a complete performance report.
+Two [authentic MT5 order-history screenshots from 29 October 2026](mt5-forward-testing-evidence.md) are available, with a [Thai explanation](mt5-forward-testing-evidence_TH.md). The excerpts show both successful and losing trades. Some market periods may suit a strategy better than others, but these images do not establish reliable performance in all trends or market regimes.
+
 
 ## Confidential materials not included
 
-Actual Expert Advisor source code, rules for choosing BUY/SELL, optimized parameters, broker configuration, account information, trade records, historical tick data and detailed performance reports.
+Actual Expert Advisor source code, proprietary BUY/SELL decision rules, optimized parameters, credentials, complete trading history, and detailed system datasets are not published. **Two original order-history screenshots have been published with the owner's permission**; they contain individual trade details.
 
 **No profitable-trading claim is made.** This description shows research and software engineering skills only.

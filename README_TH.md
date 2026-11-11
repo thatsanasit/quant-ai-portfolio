@@ -13,7 +13,7 @@
 | โครงงาน | ทักษะที่แสดง | รายละเอียด |
 |---|---|---|
 | **Gold News Analyzer** *(กำลังวิจัย)* | วิเคราะห์ข่าวการเงิน, NLP, การประเมินโมเดลตามลำดับเวลา | [ภาพรวมโครงงาน](projects/gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | การพัฒนา MQL5/Python, Debugging, Backtesting และความสามารถในการทดสอบซ้ำ | [ภาพรวมงานวิจัย](projects/algorithmic-trading-research.md) · [ภาพประกอบการทดสอบ MT5](projects/mt5-forward-testing-evidence_TH.md) |
+| **Algorithmic Trading Systems Research** | การพัฒนา MQL5/Python, Debugging, Backtesting และความสามารถในการทดสอบซ้ำ | [ภาพรวมงานวิจัย](projects/algorithmic-trading-research.md) · [ภาพประวัติ MT5 จริง](projects/mt5-forward-testing-evidence_TH.md) |
 | **Synthetic Walk-Forward Evaluation** | Python, Walk-Forward, Baseline, MAE/RMSE และ Unit Tests | [โค้ดตัวอย่าง](examples/walk_forward_synthetic.py) · [คำอธิบาย](projects/synthetic-walk-forward-demo.md) |
 | **Synthetic Volatility Demo** | ข้อมูล OHLC จำลองและการคำนวณ True Range/ATR | [โค้ดตัวอย่าง](demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** *(ตัวอย่างสร้างด้วย AI ช่วย)* | Python, Data Cleaning, การจัดการข้อมูลซ้ำ และ Unit Tests | [รายละเอียด](projects/synthetic-sales-analytics.md) |
@@ -45,4 +45,4 @@ python tools/review_before_publish.py
 
 [English version](README.md) · [เช็กลิสต์การตรวจความปลอดภัย](SECURITY_CHECKLIST_TH.md)
 
-*Repository นี้ประกอบด้วยสรุปโครงการและตัวอย่างสำหรับการศึกษา ไม่รวมระบบเทรดจริงหรือข้อมูลส่วนตัวของบัญชี*
+*Repository นี้ประกอบด้วยสรุปโครงงาน โค้ดตัวอย่าง และภาพประวัติ MT5 จริง 2 ภาพที่เจ้าของอนุญาตให้เผยแพร่โดยไม่ปิดบังข้อมูล ไม่มีโค้ด EA หรือสูตรเลือกฝั่งจริง โปรดทบทวนข้อมูลในภาพก่อนเปิด Public*

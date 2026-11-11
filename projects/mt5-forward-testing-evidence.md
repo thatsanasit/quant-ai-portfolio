@@ -1,36 +1,38 @@
-# MT5 Forward-Testing Evidence — Privacy-Safe Presentation
+# MT5 Forward-Testing Evidence — Original Screenshots (29 October 2026)
 
-**Context:** Algorithmic Trading Systems Research / MQL5 and Python  
-**Platform:** MetaTrader 5  
-**Evidence source:** Two distinct order-history screenshots provided by the project author, showing entries from October 2026  
-**Publication method:** Schematic reconstruction with **all actual trade rows and values omitted**. Original screenshots are not uploaded.
+**Project:** Algorithmic Trading Systems Research  
+**Platform:** MetaTrader 5 (MT5), XAUUSD M1 order-history view  
+**Evidence:** Two authentic, unredacted screenshots provided and explicitly authorized for inclusion by the project owner.
 
-![Privacy-safe visual reconstruction of MT5 forward-testing history](../assets/mt5-forward-testing-redacted.svg)
+## Screenshot A — morning excerpt
 
-## What was observed
+![Original MT5 order-history screenshot, morning excerpt](../assets/mt5-history-2026-10-29-morning.png)
 
-The supplied screenshots contain multiple closed-order rows from a MetaTrader 5 history view. The display includes order direction, time, prices, stop levels, lot volume, and individual trade outcomes. The first and third supplied screenshots show the same excerpt; only two different excerpts were considered.
+## Screenshot B — afternoon excerpt
 
-## Engineering work this illustrates
+![Original MT5 order-history screenshot, afternoon excerpt](../assets/mt5-history-2026-10-29-afternoon.png)
 
-- Using MT5 to run and monitor algorithmic order execution
-- Reviewing entry/exit records and logging experimental outcomes
-- Diagnosing software behavior using testing history
-- Comparing experiment variants while considering reproducibility and limitations
-- Preparing documentation without publishing proprietary implementation details
+The first and third images supplied in the original discussion were duplicates; only the **two distinct excerpts** are used here. These files are original screenshots, not illustrative diagrams or recreated charts.
 
-## Evidence and limitations
+## What the screenshots demonstrate
 
-- This page **does not** publish the original screenshots, real trade data, transaction-level statistics or proprietary Expert Advisor logic.
-- The graphic above is **an illustrative reconstruction**, not an authentic screenshot or verified performance chart.
-- The screenshots alone do **not** establish that the account was a demo account, that the EA was profitable overall, or that a model met out-of-sample performance targets.
-- No total profit, win rate, ROI, Sharpe ratio or drawdown is claimed on the basis of the excerpts.
-- The underlying source screenshots can be reviewed privately when appropriate, after separate confidentiality review.
+- The platform's order-history view contains multiple completed BUY/SELL orders, with entry and closing information and trade-by-trade outcomes.
+- **Some entries and exits were successful during the displayed windows**, while other trades incurred losses, including stop-loss outcomes.
+- It is plausible that **some favorable market conditions, including directional or trending phases**, can suit a given algorithmic strategy; however, these screenshots alone **cannot establish** which market regime caused those wins or that the EA performs consistently well when markets trend.
+- Performance is **not uniformly positive**. Losing trades, changing volatility and unfavorable market conditions remain important research and engineering challenges.
 
-## Confidentiality
+## Engineering focus
 
-Original screenshots were deliberately excluded because they contain ticket identifiers, exact times, order sequence, lot sizing, entry/exit prices, SL/TP, and trade-by-trade profit/loss. The owner has chosen not to publish the EA's trading signals, model parameters, broker/account information, datasets or source code.
+The project focuses on building and testing automated software, observing order execution, reviewing trade histories, diagnosing failure cases, designing repeatable experiments, and evaluating systems across different market conditions.
 
-This is a **software engineering evidence exhibit**, not investment advice or a strategy performance endorsement.
+## Interpretation limits
 
-[Back to Algorithmic Trading Research](algorithmic-trading-research.md) · [ภาษาไทย](mt5-forward-testing-evidence_TH.md)
+These selected screenshots **are not** a full accounting statement, a complete backtest, a statistically representative sample or proof of profitability. Do not infer an overall win rate, total net return, Sharpe ratio, maximum drawdown, or future performance from these excerpts. Account mode (demo/real) is not independently established by the captured pixels alone.
+
+## Publication notice
+
+The owner **explicitly approved uploading these two original images without redaction**. They reveal ticket numbers, execution timestamps, symbol, order directions, volume, prices, SL/TP levels, and per-trade P&L. The repository is currently Private; **changing its visibility to Public would publish all these details and the commit history as well**. Actual EA source code, proprietary decision rules and credentials are not published here.
+
+This portfolio material demonstrates software testing and documentation, **not investment advice or a claim of guaranteed or continuous profits**.
+
+[Back to algorithmic trading project](algorithmic-trading-research.md) · [ภาษาไทย](mt5-forward-testing-evidence_TH.md)

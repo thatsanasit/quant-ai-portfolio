@@ -28,7 +28,8 @@ ALLOWED = {
     "projects/README_TH.md",
     "projects/mt5-forward-testing-evidence.md",
     "projects/mt5-forward-testing-evidence_TH.md",
-    "assets/mt5-forward-testing-redacted.svg",
+    "assets/mt5-history-2026-10-29-morning.png",
+    "assets/mt5-history-2026-10-29-afternoon.png",
 }
 PATTERNS = {
     "private key": r"-----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----",
@@ -52,6 +53,11 @@ def main() -> int:
             continue
         if path.stat().st_size > 1_000_000:
             problems.append(f"Large file: {name}")
+            continue
+        if path.suffix.lower() == ".png":
+            if not path.read_bytes().startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+                problems.append(f"Unexpected PNG contents: {name}")
+            # Two owner-approved, unredacted screenshots; manual review is still required.
             continue
         content = path.read_text(encoding="utf-8")
         for label, pattern in PATTERNS.items():
