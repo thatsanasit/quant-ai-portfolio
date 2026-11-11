@@ -18,6 +18,8 @@ I develop and evaluate software projects involving Python, MQL5, data analysis a
 | **Synthetic Volatility Demo** | Deterministic artificial OHLC data, true range and simple ATR | [Source code](demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** *(AI-assisted educational demo)* | Data validation, duplicate handling, business reporting, Python unit tests | [Details](projects/synthetic-sales-analytics.md) · [Python](examples/synthetic_sales_pipeline.py) |
 
+| **ML Model Training & Chronological Evaluation** *(case study + runnable synthetic demo)* | Random Forest, LightGBM, ROC AUC/Brier, chronological holdout, honest baseline evaluation | [Study](projects/ml-chronological-evaluation.md) · [Training source](examples/synthetic_ml_training.py) |
+
 ## Technical skills
 
 - **Programming:** Python · MQL5 · SQL; coursework in Java and JavaScript/TypeScript
@@ -37,11 +39,13 @@ Requires Python 3.10+; standard library only.
 python examples/walk_forward_synthetic.py
 python demo/synthetic_volatility.py
 python examples/synthetic_sales_pipeline.py
+# Optional ML demo: install requirements-ml.txt then run
+# python examples/synthetic_ml_training.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
 
-These examples use **synthetic data only**, and are for demonstrating software engineering and evaluation methods, not investment advice or performance claims.
+The standard-library examples use **synthetic data only**; the optional ML demonstration also uses synthetic data but requires dependencies in requirements-ml.txt. The separate historical ML case study is reported without its private dataset. These examples use **no authentic trade records**, and are for demonstrating software engineering and evaluation methods, not investment advice or performance claims.
 
 ## Other information
 
