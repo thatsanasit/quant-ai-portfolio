@@ -6,6 +6,7 @@ Explore selected research and educational projects. Work that is still in progre
 
 | Project | Status | Key skills | Materials |
 |---|---|---|---|
+| **ML Model Training & Chronological Evaluation** | **Historical case study + runnable independent synthetic demo** | Random Forest, LightGBM, AUC, Brier, Python testing | [Study](ml-chronological-evaluation.md) · [Training code](../examples/synthetic_ml_training.py) |
 | **Gold News Analyzer** | **Research in progress** | Financial NLP, sentiment, ML evaluation | [Overview](gold-news-analyzer.md) |
 | **Algorithmic Trading Systems Research** | **Independent research; overview only** | MQL5, Python, debugging, reproducible testing | [Overview](algorithmic-trading-research.md) · [Original MT5 screenshot evidence](mt5-forward-testing-evidence.md) |
 | **Walk-Forward Evaluation** | **Runnable educational demo** | Time-aware validation, AR(1), error metrics, tests | [Details](synthetic-walk-forward-demo.md) · [Python](../examples/walk_forward_synthetic.py) |
@@ -16,7 +17,7 @@ Explore selected research and educational projects. Work that is still in progre
 
 **Gold News Analyzer** is a research direction, not a deployed product or proof of predictive accuracy. **Algorithmic Trading Systems Research** summarizes engineering work and includes two owner-approved real MT5 screenshots (including both wins and losses) without uploading the EA source code.
 
-**Walk-Forward, Volatility and Sales Analytics** are small independently runnable samples made using synthetic information. They demonstrate general programming skills rather than a production implementation or a claim of personal authorship of every line. AI assistance was used to prepare the portfolio samples.
+**Walk-Forward, Volatility, Sales Analytics and the new ML training demonstration** are small independently runnable samples made using synthetic information. They demonstrate general programming skills rather than a production implementation or a claim of personal authorship of every line. AI assistance was used to prepare the portfolio samples.
 
 ## Quick start
 
@@ -27,6 +28,6 @@ python examples/synthetic_sales_pipeline.py
 python -m unittest discover -s tests -v
 ```
 
-All examples use Python 3.10+ and the standard library only.
+The original examples use Python 3.10+ and the standard library. The separate synthetic ML training demo requires `pip install -r requirements-ml.txt`.
 
 [Read in Thai](README_TH.md) · [Back to portfolio](../README.md)
