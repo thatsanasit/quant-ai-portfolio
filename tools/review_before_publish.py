@@ -55,7 +55,7 @@ def main() -> int:
             problems.append(f"Large file: {name}")
             continue
         if path.suffix.lower() == ".png":
-            if not path.read_bytes().startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+            if not path.read_bytes().startswith(bytes((137, 80, 78, 71, 13, 10, 26, 10))):
                 problems.append(f"Unexpected PNG contents: {name}")
             # Two owner-approved, unredacted screenshots; manual review is still required.
             continue
