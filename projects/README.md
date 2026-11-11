@@ -7,7 +7,7 @@ Explore selected research and educational projects. Work that is still in progre
 | Project | Status | Key skills | Materials |
 |---|---|---|---|
 | **Gold News Analyzer** | **Research in progress** | Financial NLP, sentiment, ML evaluation | [Overview](gold-news-analyzer.md) |
-| **Algorithmic Trading Systems Research** | **Independent research; overview only** | MQL5, Python, debugging, reproducible testing | [Overview](algorithmic-trading-research.md) |
+| **Algorithmic Trading Systems Research** | **Independent research; overview only** | MQL5, Python, debugging, reproducible testing | [Overview](algorithmic-trading-research.md) · [Sanitized MT5 exhibit](mt5-forward-testing-evidence.md) |
 | **Walk-Forward Evaluation** | **Runnable educational demo** | Time-aware validation, AR(1), error metrics, tests | [Details](synthetic-walk-forward-demo.md) · [Python](../examples/walk_forward_synthetic.py) |
 | **Synthetic Volatility Analysis** | **Runnable educational demo** | OHLC-like data, true range, ATR, Python | [Python](../demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** | **Runnable AI-assisted demo** | Data validation, deduplication, aggregation, unit tests | [Details](synthetic-sales-analytics.md) · [Python](../examples/synthetic_sales_pipeline.py) |
