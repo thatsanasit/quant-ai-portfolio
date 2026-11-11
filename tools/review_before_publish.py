@@ -26,6 +26,9 @@ ALLOWED = {
     "projects/synthetic-sales-analytics.md",
     "projects/README.md",
     "projects/README_TH.md",
+    "projects/mt5-forward-testing-evidence.md",
+    "projects/mt5-forward-testing-evidence_TH.md",
+    "assets/mt5-forward-testing-redacted.svg",
 }
 PATTERNS = {
     "private key": r"-----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----",
