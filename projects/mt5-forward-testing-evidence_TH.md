@@ -28,4 +28,4 @@
 
 **ข้อจำกัด:** ภาพสองช่วงไม่สามารถใช้ยืนยันกำไรสุทธิทั้งหมด Win Rate หรือ Drawdown ระยะยาว และไม่ใช่การรับรองผลตอบแทนในอนาคต
 
-[กลับหน้าโครงงาน](algorithmic-trading-research.md) · [English](mt5-forward-testing-evidence.md)
+[กลับหน้าโครงงาน](algorithmic-trading-research_TH.md) · [English](mt5-forward-testing-evidence.md)
