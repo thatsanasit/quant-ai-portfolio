@@ -5,7 +5,7 @@
 | โปรเจกต์ | สถานะ | ทักษะ | ดูเพิ่มเติม |
 |---|---|---|---|
 | **Gold News Analyzer** | **กำลังทำวิจัย** | NLP, AI, Financial Data | [รายละเอียด](gold-news-analyzer.md) |
-| **Algorithmic Trading Research** | **งานวิจัยที่ทำอยู่ — แสดงเฉพาะภาพรวม** | MQL5, Python, Backtesting, Debugging | [รายละเอียด](algorithmic-trading-research.md) |
+| **Algorithmic Trading Research** | **งานวิจัยที่ทำอยู่ — แสดงเฉพาะภาพรวม** | MQL5, Python, Backtesting, Debugging | [รายละเอียด](algorithmic-trading-research.md) · [หลักฐาน MT5 แบบปกปิด](mt5-forward-testing-evidence_TH.md) |
 | **Walk-Forward Evaluation** | **โค้ดตัวอย่างรันได้** | Python, Time-Series, Unit Tests | [รายละเอียด](synthetic-walk-forward-demo.md) |
 | **Synthetic Volatility Analysis** | **โค้ดตัวอย่างรันได้** | Python, OHLC, การคำนวณเชิงสถิติ | [โค้ด](../demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** | **โค้ดตัวอย่างสร้างด้วย AI ช่วย** | Data Cleaning, Deduplication, Data Quality | [รายละเอียด](synthetic-sales-analytics.md) |
