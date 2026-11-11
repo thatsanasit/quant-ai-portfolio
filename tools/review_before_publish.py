@@ -33,6 +33,8 @@ ALLOWED = {
     "examples/synthetic_ml_training.py",
     "tests/test_synthetic_ml_training.py",
     "requirements-ml.txt",
+    "PUBLIC_RELEASE_CHECKLIST_TH.md",
+    "INTERVIEW_PREP_TH.md",
     "projects/ml-chronological-evaluation.md",
     "projects/ml-chronological-evaluation_TH.md",
 }
