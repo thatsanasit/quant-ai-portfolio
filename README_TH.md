@@ -10,7 +10,7 @@
 
 | โปรเจกต์ | สิ่งที่ทำ | ดูผลงาน |
 |---|---|---|
-| **Algorithmic Trading Systems Research** | พัฒนาระบบด้วย MQL5/MT5, ติดตามผลการทดลอง, Debugging และประเมินการทำงานบนบัญชี Demo | [โครงงาน](projects/algorithmic-trading-research.md) · [ภาพ MT5 จริง](projects/mt5-forward-testing-evidence_TH.md) |
+| **Algorithmic Trading Systems Research** | พัฒนาระบบด้วย MQL5/MT5, ติดตามผลการทดลอง, Debugging และประเมินการทำงานบนบัญชี Demo | [โครงงานและเหตุผลการพัฒนา](projects/algorithmic-trading-research_TH.md) · [ภาพ MT5 จริง](projects/mt5-forward-testing-evidence_TH.md) |
 | **Machine Learning Model Evaluation** | ทดลอง Random Forest และ LightGBM แบ่งข้อมูลตามเวลา ประเมิน ROC AUC/Brier และสร้างโค้ดฝึกโมเดลตัวอย่าง | [กรณีศึกษา](projects/ml-chronological-evaluation_TH.md) · [Python](examples/synthetic_ml_training.py) |
 | **Gold News Analyzer** *(กำลังพัฒนา)* | ศึกษาการวิเคราะห์ข่าวการเงิน ความเชื่อมั่น ทิศทางราคาและความผันผวนของทองคำ | [รายละเอียด](projects/gold-news-analyzer.md) |
 
