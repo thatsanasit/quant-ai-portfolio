@@ -4,6 +4,7 @@
 
 | โปรเจกต์ | สถานะ | ทักษะ | ดูเพิ่มเติม |
 |---|---|---|---|
+| **ML Training & Chronological Evaluation** | **กรณีศึกษาจากผลจริง + เดโมฝึกโมเดลที่รันได้** | Random Forest, LightGBM, AUC, Brier | [กรณีศึกษา](ml-chronological-evaluation_TH.md) |
 | **Gold News Analyzer** | **กำลังทำวิจัย** | NLP, AI, Financial Data | [รายละเอียด](gold-news-analyzer.md) |
 | **Algorithmic Trading Research** | **งานวิจัยที่ทำอยู่ — แสดงเฉพาะภาพรวม** | MQL5, Python, Backtesting, Debugging | [รายละเอียด](algorithmic-trading-research.md) · [ภาพ MT5 ต้นฉบับจริง](mt5-forward-testing-evidence_TH.md) |
 | **Walk-Forward Evaluation** | **โค้ดตัวอย่างรันได้** | Python, Time-Series, Unit Tests | [รายละเอียด](synthetic-walk-forward-demo.md) |
