@@ -30,6 +30,11 @@ ALLOWED = {
     "projects/mt5-forward-testing-evidence_TH.md",
     "assets/mt5-history-2026-10-29-morning.png",
     "assets/mt5-history-2026-10-29-afternoon.png",
+    "examples/synthetic_ml_training.py",
+    "tests/test_synthetic_ml_training.py",
+    "requirements-ml.txt",
+    "projects/ml-chronological-evaluation.md",
+    "projects/ml-chronological-evaluation_TH.md",
 }
 PATTERNS = {
     "private key": r"-----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----",
