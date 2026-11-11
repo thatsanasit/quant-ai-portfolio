@@ -51,6 +51,8 @@ The standard-library examples use **synthetic data only**; the optional ML demon
 
 - [ภาษาไทย / Thai version](README_TH.md)
 - [Security review checklist (Thai)](SECURITY_CHECKLIST_TH.md)
+- [Public release checklist (Thai)](PUBLIC_RELEASE_CHECKLIST_TH.md)
+- [Internship interview preparation (Thai)](INTERVIEW_PREP_TH.md)
 - [GitHub profile introduction template](PROFILE_README_TEMPLATE.md)
 
 *Portfolio scope: research summaries, educational examples, and two owner-approved original MT5 order-history screenshots with visible trade details. Proprietary EA code and strategy rules are not included. Review screenshots before making the repository Public.*
