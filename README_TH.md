@@ -49,6 +49,6 @@ python tools/review_before_publish.py
 
 ข้อมูลในโค้ดตัวอย่างเป็น **ข้อมูลสังเคราะห์** เพื่อแสดงวิธีประเมินโปรแกรมและโมเดลเท่านั้น ไม่ใช่ผลกำไรหรือคำแนะนำการลงทุน
 
-[English version](README.md) · [เช็กลิสต์การตรวจความปลอดภัย](SECURITY_CHECKLIST_TH.md)
+[English version](README.md) · [เช็กลิสต์การตรวจความปลอดภัย](SECURITY_CHECKLIST_TH.md) · [เช็กก่อนเปิด Public](PUBLIC_RELEASE_CHECKLIST_TH.md) · [เตรียมสัมภาษณ์](INTERVIEW_PREP_TH.md)
 
 *Repository นี้ประกอบด้วยสรุปโครงงาน โค้ดตัวอย่าง และภาพประวัติ MT5 จริง 2 ภาพที่เจ้าของอนุญาตให้เผยแพร่โดยไม่ปิดบังข้อมูล ไม่มีโค้ด EA หรือสูตรเลือกฝั่งจริง โปรดทบทวนข้อมูลในภาพก่อนเปิด Public*
