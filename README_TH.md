@@ -18,6 +18,8 @@
 | **Synthetic Volatility Demo** | ข้อมูล OHLC จำลองและการคำนวณ True Range/ATR | [โค้ดตัวอย่าง](demo/synthetic_volatility.py) |
 | **Synthetic Sales Analytics Pipeline** *(ตัวอย่างสร้างด้วย AI ช่วย)* | Python, Data Cleaning, การจัดการข้อมูลซ้ำ และ Unit Tests | [รายละเอียด](projects/synthetic-sales-analytics.md) |
 
+| **ML Model Training & Chronological Evaluation** *(กรณีศึกษา + เดโมฝึกโมเดล)* | ฝึก Random Forest / LightGBM, ROC AUC, Brier Score, ประเมินตามเวลา | [กรณีศึกษาภาษาไทย](projects/ml-chronological-evaluation_TH.md) · [โค้ดฝึกโมเดล](examples/synthetic_ml_training.py) |
+
 ## ทักษะและเครื่องมือ
 
 - **ภาษาโปรแกรม:** Python, MQL5, SQL และวิชาที่ศึกษาเพิ่มเติม Java, JavaScript/TypeScript
@@ -37,9 +39,13 @@
 python examples/walk_forward_synthetic.py
 python demo/synthetic_volatility.py
 python examples/synthetic_sales_pipeline.py
+# ตัวอย่าง ML แยก: ติดตั้ง requirements-ml.txt ก่อน
+# python examples/synthetic_ml_training.py
 python -m unittest discover -s tests -v
 python tools/review_before_publish.py
 ```
+
+โค้ดสาธิตมาตรฐานใช้ Python Standard Library ส่วนเดโม ML เพิ่มเติมต้องติดตั้งไลบรารีจาก requirements-ml.txt
 
 ข้อมูลในโค้ดตัวอย่างเป็น **ข้อมูลสังเคราะห์** เพื่อแสดงวิธีประเมินโปรแกรมและโมเดลเท่านั้น ไม่ใช่ผลกำไรหรือคำแนะนำการลงทุน
 
